@@ -1,0 +1,84 @@
+##########################################
+# Lista de exercícios 1
+# Autor: Dennis Gustavo Alves de Mello nº11799405
+# Data: 22/03/2026
+##########################################
+
+# Removendo os objetos ativos
+rm(list=ls())
+
+# Exercicio 1
+# (a)
+3+4*8
+
+# (b)
+(3+4)*8
+
+# (c)
+8*5+2*3
+
+# (d)
+8*(5+2)*3
+
+# (e)
+2^3+2*(sqrt(3))
+
+# (f)
+(2*8/3)+(5/(6+8))
+
+# (g)
+1+2+3+4+5+6+7+8
+# outra forma
+sum(seq(to=8))
+
+# (h)
+1*2*3*4*5*6*7*8
+# outra forma
+prod(seq(to=8))
+# outra forma
+factorial(8)
+
+# (i)
+(1+1/8)^3
+
+# (j)
+cos(pi)
+
+# (k)
+sin(pi)^2+cos(pi)^2
+
+# (l)
+log(9)
+
+# (m)
+abs(8-19)
+
+# (n)
+(2/factorial(7))+(sqrt(2)/2)
+
+# Exercicio 2
+# (a)
+matriz <- matrix(c(5,0,6,9,6,4,3,5,2), ncol = 3, byrow = TRUE)
+
+# (b)
+dim(matriz)
+
+# (c)
+diag(matriz)
+
+# Exercicio 3
+a <- 1:10
+b <- letters[1:6]
+c <- matrix(letters[1:6],ncol=2)
+d <- c("verde","azul","rosa")
+e <- c(4i,8i,9i)
+f <- c(5>2,7<2,8>3)
+g <- date()
+
+c(class(a),mode(a))
+c(class(b),mode(b))
+c(class(c),mode(c))
+c(class(d),mode(d))
+c(class(e),mode(e))
+c(class(f),mode(f))
+c(class(g),mode(g))
